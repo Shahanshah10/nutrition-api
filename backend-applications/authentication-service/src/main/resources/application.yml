@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: authentication-service
+  config:
+    import: "optional:configserver:"
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    database: default
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    username: root
+    password: root@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/nutrition_user
+
+
+server:
+  port: 8082
+  error:
+    include-message: always
+    include-stacktrace: never
+eureka:
+  instance:
+    hostname: localhost
+
+kafka:
+  topic-name: user-profile-topic
+  bootstrap-servers: localhost:9092
+  group-id: user-profile-topic-group-id
+  offset: latest
+

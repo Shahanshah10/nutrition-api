@@ -1,0 +1,19 @@
+spring:
+  config:
+    import: "optional:configserver:"
+
+  application:
+    name: nutrition-service
+
+server:
+  port: 8083
+
+external-nutrition-api:
+  base-url: https://trackapi.nutritionix.com/v2
+  search-end-point: /search/item/?upc={upc}
+  x-app-id: c4e4f1ba
+  x-app-key: c607395a6c73ba1ca86e1ccd99161d4f
+
+eureka:
+  instance:
+    hostname: localhost

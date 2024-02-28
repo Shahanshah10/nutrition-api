@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: user-profile-service
+  config:
+    import: "optional:configserver:"
+  data:
+    mongodb:
+      database: nutrition-database
+      port: 27017
+      host: localhost
+      auto-index-creation: true
+server:
+  port: 8081
+  error:
+    include-message: always
+    include-stacktrace: never
+
+eureka:
+  instance:
+    hostname: localhost
+
+kafka:
+  topic-name: user-profile-topic
+  bootstrap-servers: localhost:9092

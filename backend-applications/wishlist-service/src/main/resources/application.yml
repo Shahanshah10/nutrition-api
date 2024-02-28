@@ -1,0 +1,19 @@
+spring:
+  config:
+    import: "optional:configserver:"
+  application:
+    name: wishlist-service
+  data:
+    mongodb:
+      database: nutrition-database
+      port: 27017
+      host: localhost
+      auto-index-creation: true
+server:
+  port: 8084
+  error:
+    include-message: always
+    include-stacktrace: never
+eureka:
+  instance:
+    hostname: localhost

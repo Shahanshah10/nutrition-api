@@ -1,0 +1,16 @@
+/Users/zawals/Nutrition/user-profile-service/src/main/java/com/userprofile/service/constants/UserProfileConstants.java
+/Users/zawals/Nutrition/user-profile-service/src/main/java/com/userprofile/service/repository/UserRepository.java
+/Users/zawals/Nutrition/user-profile-service/src/main/java/com/userprofile/service/config/KafkaProducerConfig.java
+/Users/zawals/Nutrition/user-profile-service/src/main/java/com/userprofile/service/config/SecurityConfig.java
+/Users/zawals/Nutrition/user-profile-service/src/main/java/com/userprofile/service/service/SequenceGeneratorService.java
+/Users/zawals/Nutrition/user-profile-service/src/main/java/com/userprofile/service/exception/UserExceptionHandler.java
+/Users/zawals/Nutrition/user-profile-service/src/main/java/com/userprofile/service/dto/UserInfo.java
+/Users/zawals/Nutrition/user-profile-service/src/main/java/com/userprofile/service/model/User.java
+/Users/zawals/Nutrition/user-profile-service/src/main/java/com/userprofile/service/producer/KafkaMessageProducer.java
+/Users/zawals/Nutrition/user-profile-service/src/main/java/com/userprofile/service/controller/UserController.java
+/Users/zawals/Nutrition/user-profile-service/src/main/java/com/userprofile/service/properties/UserProfileProperties.java
+/Users/zawals/Nutrition/user-profile-service/src/main/java/com/userprofile/service/model/DbSequence.java
+/Users/zawals/Nutrition/user-profile-service/src/main/java/com/userprofile/service/exception/UserBadRequestException.java
+/Users/zawals/Nutrition/user-profile-service/src/main/java/com/userprofile/service/exception/ErrorResponse.java
+/Users/zawals/Nutrition/user-profile-service/src/main/java/com/userprofile/service/service/UserService.java
+/Users/zawals/Nutrition/user-profile-service/src/main/java/com/userprofile/service/UserProfileApplication.java
